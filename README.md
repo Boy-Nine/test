@@ -1,0 +1,3 @@
+# taobao_ulang_id
+
+淘宝通过ulang的链接字符串id转换成数字id
