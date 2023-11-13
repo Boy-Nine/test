@@ -1,0 +1,13 @@
+name = "淘宝字符串id转链"
+version = "1.0.0"
+description = "通过淘宝未转链的链接进行转链"
+help = "https://poizon.feishu.cn/docx/BUMLdyxxio6HnmxFUENcQXgVnfh"#准备说明文档
+networkType = 1  # 0不出站 1出站
+
+
+[form]
+[form.read_excel_path]
+type = "file"
+text = "excel路径"
+default = "具体入参请看帮助文档"
+
