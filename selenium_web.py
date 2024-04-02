@@ -134,3 +134,12 @@ class TbWebTool:
             return tb_item_url
         logger.error(f'当前转链异常：当前链接：{tb_item_url}')
         return None
+
+
+if __name__ == '__main__':
+    web = web_init(show=True)
+    web.get('https://www.baidu.com')
+    time.sleep(2)
+    # web.quit()
+
+    print(123123123)
